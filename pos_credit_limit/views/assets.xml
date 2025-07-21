@@ -1,0 +1,7 @@
+<odoo>
+    <template id="assets" inherit_id="point_of_sale.assets" name="POS Credit Limit Assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_credit_limit_alert/static/src/js/credit_limit_alert.js"/>
+        </xpath>
+    </template>
+</odoo>
