@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="ErrorPopup">
+        <div class="popup popup-error">
+            <div class="popup-header">
+                <h2><t t-esc="title"/></h2>
+            </div>
+            <div class="popup-body">
+                <p><t t-esc="body"/></p>
+            </div>
+            <div class="popup-footer">
+                <button t-on-click="cancel" class="btn btn-primary">Aceptar</button>
+            </div>
+        </div>
+    </t>
+</templates>
